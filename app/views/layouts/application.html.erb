@@ -10,10 +10,12 @@
 
     <%# ここに追加 %>
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    
+
   </head>
 
   <body>
+    <%= render'partial/navbar'%>
+    
     <%= yield %>
   </body>
 </html>
